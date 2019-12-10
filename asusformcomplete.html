@@ -1,52 +1,60 @@
-{{ header }}
-{{ column_left }}
-{{ column_right }}
 
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>ASUS AiMesh Experience Store Booking</title>
+</head>
 
 <body>
     <center>
-	<img src="https://www.tsatech.nz/image/catalog/Aimech-2.png" class="d-block w-100" alt="...">
         <div class="mx-auto" style="padding:10px; max-width: 1000px;">
             <h1>ASUS AiMesh Experience Store Booking</h1>
             <p>Book your time with us on Mon-Fir 9:30am-5pm to experience ASUS AiMesh WiFi System, learn how to setup
                 and maintain your current ASUS device.</p>
-            <form style="padding: 20px" method="post" action="index.php?route=information/asusformcomplete">
+            <form style="padding: 20px" method="post">
                 <div class="form-group row">
                     <label for="inputName" class="col-sm-2 col-form-label"><b>Name</b></label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputName" name="name" placeholder="Your Name" required>
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="inputContactNumber" class="col-sm-2 col-form-label"><b>Contact Number</b></label>
                     <div class="col-sm-10">
-                        <input type="tel" class="form-control" id="inputContactNumber" name="contactnumber" placeholder="555555555" required>
+                        <input type="tel" class="form-control" id="inputContactNumber" placeholder="555555555" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="inputEmail" class="col-sm-2 col-form-label"><b>Email</b></label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="user@email.co.nz"
+                        <input type="email" class="form-control" id="inputEmail" placeholder="user@email.co.nz"
                             required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="inputTime" class="col-sm-2 col-form-label"><b>Time</b></label>
                     <div class="col-sm-10">
-                        <input type="datetime-local" value="2020-01-01T00:00:00" name="time" class="form-control"
-                            id="inputTime" required>
+                        <input type="datetime-local" value="2020-01-01T00:00:00" class="form-control"
+                            id="inputPassword3" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="inputEnquiry" class="col-sm-2 col-form-label"><b>Enquiry</b></label>
                     <div class="col-sm-10">
-                        <textarea type="text" class="form-control" id="inputEnquiry" name="enquiry" placeholder="Your Enquiry" rows="5"
+                        <textarea type="text" class="form-control" id="inputEnquiry" placeholder="Your Enquiry" rows="5"
                             required></textarea>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="ml-auto p-2 mr-3">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
                     </div>
                 </div>
                 <div class="form-group">
@@ -78,6 +86,3 @@
             crossorigin="anonymous"></script>
     </center>
 </body>
-{{ content_top}}
-{{ content_bottom }}
-{{ footer }} 
